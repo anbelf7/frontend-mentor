@@ -3,13 +3,13 @@ import Meta from '../components/Meta';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-  const title = 'Titolo Sito';
+  const title = 'Frontend Mentor Challenges';
   return (
     <Layout title={title}>
       <Meta
         title={title}
-        keywords="keyword, keyword"
-        description="Descrizione sito"
+        keywords="Frontend Mentor, frontend"
+        description="My solution for challenges from Frontend Mentor"
       />
       <Component {...pageProps} />
     </Layout>
