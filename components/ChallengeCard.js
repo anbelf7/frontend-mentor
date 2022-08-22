@@ -7,7 +7,12 @@ const ChallengeCard = ({ title, url, image, tag, desc, code }) => {
     <div className=" mt-5  overflow-hidden rounded bg-white">
       <Link href={url}>
         <div className="relative h-48 cursor-pointer overflow-hidden rounded transition duration-300 hover:scale-105">
-          <Image src={image} layout="fill" objectFit="cover" />
+          <Image
+            src={image}
+            alt="challenge-image"
+            layout="fill"
+            objectFit="cover"
+          />
           {/* <div className="relative hidden space-y-1 p-3 text-xs group-hover:block">
             {brief.map((e) => (
               <li>{e}</li>

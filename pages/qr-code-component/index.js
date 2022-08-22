@@ -7,7 +7,7 @@ const index = () => {
     <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
           rel="stylesheet"
@@ -18,6 +18,7 @@ const index = () => {
           <div className="relative h-96 w-full overflow-hidden rounded-xl">
             <Image
               src="/qr-code-component/image-qr-code.png"
+              alt="qr-code-image"
               layout="fill"
               objectFit="cover"
             />
