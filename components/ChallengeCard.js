@@ -34,9 +34,10 @@ const ChallengeCard = ({ title, url, image, tag, desc, code }) => {
               </div>
             </div>
           </Link>
-          <Link href={code}>
+          <Link href={code} passHref>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               className="mt-3 inline-flex cursor-pointer items-center font-medium hover:text-slate-500"
             >
               <div className="flex items-center">
