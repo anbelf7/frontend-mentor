@@ -6,20 +6,20 @@ Website: https://fmchallenges.netlify.app
 
 ## Newbie
 
-| Challenge                 | Code                                                                                 | Live                                                       |
-| ------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------- |
-| Article preview component | -                                                                                    | -                                                          |
-| QR code component         | [Code](https://github.com/anbelf7/frontend-mentor/tree/main/pages/qr-code-component) | [Live](https://fmchallenges.netlify.app/qr-code-component) |
+| Challenge                 | Code                                                                                         | Live                                                               |
+| ------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Article preview component | [Code](https://github.com/anbelf7/frontend-mentor/tree/main/pages/article-preview-component) | [Live](https://fmchallenges.netlify.app/article-preview-component) |
+| QR code component         | [Code](https://github.com/anbelf7/frontend-mentor/tree/main/pages/qr-code-component)         | [Live](https://fmchallenges.netlify.app/qr-code-component)         |
 
 ## Junior
 
-| Challenge                              | Code | Live |
-| -------------------------------------- | ---- | ---- |
-| Intro section with dropdown navigation | -    | -    |
-| Expenses chart component               | -    | -    |
+| Challenge                              | Code                                                                                                      | Live                                                                            |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Intro section with dropdown navigation | [Code](https://github.com/anbelf7/frontend-mentor/tree/main/pages/intro-section-with-dropdown-navigation) | [Live](https://fmchallenges.netlify.app/intro-section-with-dropdown-navigation) |
+| Expenses chart component               | [Code](https://github.com/anbelf7/frontend-mentor/tree/main/pages/expenses-chart-component)               | [Live](https://fmchallenges.netlify.app/expenses-chart-component)               |
 
 ## Intermediate
 
-| Challenge           | Code | Live |
-| ------------------- | ---- | ---- |
-| Manage landing page | -    | -    |
+| Challenge           | Code                                                                                   | Live                                                         |
+| ------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Manage landing page | [Code](https://github.com/anbelf7/frontend-mentor/tree/main/pages/manage-landing-page) | [Live](https://fmchallenges.netlify.app/manage-landing-page) |
