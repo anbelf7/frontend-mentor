@@ -29,18 +29,21 @@ const ChallengeCard = ({ title, url, image, tag, desc, code }) => {
           <Link href={url}>
             <div className="mt-3 inline-flex cursor-pointer items-center font-medium hover:text-slate-500">
               <div className="flex items-center">
-                <h3 className="text-sm tracking-wide ">Live</h3>
+                <h3 className="text-sm tracking-wide ">Live Demo</h3>
                 <ChevronRightIcon className="ml-1 h-4" />
               </div>
             </div>
           </Link>
           <Link href={code}>
-            <div className="mt-3 inline-flex cursor-pointer items-center font-medium hover:text-slate-500">
+            <a
+              target="_blank"
+              className="mt-3 inline-flex cursor-pointer items-center font-medium hover:text-slate-500"
+            >
               <div className="flex items-center">
                 <h3 className="text-sm tracking-wide ">Code & Brief</h3>
                 <ChevronRightIcon className="ml-1 h-4" />
               </div>
-            </div>
+            </a>
           </Link>
         </div>
       </div>
