@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Meta
         title={title}
         keywords="Frontend Mentor, frontend"
-        description="My solution for challenges from Frontend Mentor"
+        description="My solutions for challenges from Frontend Mentor"
       />
       <Component {...pageProps} />
     </Layout>

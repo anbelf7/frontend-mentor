@@ -1,6 +1,26 @@
-# NextJS Starter
+# Frontend Mentor Challenges
 
-This is a [Next.js](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com) personalized template project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This repo contains my solution for challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges) made by [Next.js](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com) and personalized template project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Newbie
+
+| Challenge                 | Code | Live |
+| ------------------------- | ---- | ---- |
+| Article preview component | -    | -    |
+| QR code component         | -    | -    |
+
+## Junior
+
+| Challenge                              | Code | Live |
+| -------------------------------------- | ---- | ---- |
+| Intro section with dropdown navigation | -    | -    |
+| Expenses chart component               | -    | -    |
+
+## Intermediate
+
+| Challenge           | Code | Live |
+| ------------------- | ---- | ---- |
+| Manage landing page | -    | -    |
 
 ## What's include here?
 

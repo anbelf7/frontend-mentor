@@ -5,10 +5,10 @@ import { menuItems } from '../lib/menuItems';
 const Header = ({ title }) => {
   return (
     <header className="bg-slate-200 text-gray-600">
-      <div className="container mx-auto flex flex-col flex-wrap items-center justify-between p-5 md:flex-row">
+      <div className="container mx-auto flex flex-col flex-wrap items-center justify-between py-1 px-5 md:flex-row">
         <Link href="/">
           <a className="mb-4 flex items-center font-medium text-gray-900 md:mb-0">
-            <h1 className="text-xl">{title}</h1>
+            <h1 className="text-lg">{title}</h1>
           </a>
         </Link>
         <nav className="flex flex-wrap items-center space-x-10	md:ml-4  md:py-1 md:pl-4">
