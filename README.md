@@ -4,10 +4,10 @@ This repo contains my solution for challenges from [Frontend Mentor](https://www
 
 ## Newbie
 
-| Challenge                 | Code | Live |
-| ------------------------- | ---- | ---- |
-| Article preview component | -    | -    |
-| QR code component         | -    | -    |
+| Challenge                 | Code                                                                                 | Live |
+| ------------------------- | ------------------------------------------------------------------------------------ | ---- |
+| Article preview component | -                                                                                    | -    |
+| QR code component         | [Code](https://github.com/anbelf7/frontend-mentor/tree/main/pages/qr-code-component) | -    |
 
 ## Junior
 
