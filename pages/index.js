@@ -11,6 +11,8 @@ export default function Home() {
           url={challenge.url}
           image={challenge.image}
           tag={challenge.tag}
+          desc={challenge.desc}
+          code={challenge.code}
         />
       ))}
     </div>

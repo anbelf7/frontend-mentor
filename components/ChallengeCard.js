@@ -1,28 +1,50 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import { ChevronRightIcon } from '@heroicons/react/outline';
 
-const ChallengeCard = ({ title, url, image, tag }) => {
+const ChallengeCard = ({ title, url, image, tag, desc, code }) => {
   return (
-    <Link href={url}>
-      <div className="group mt-5 cursor-pointer overflow-hidden rounded bg-white">
-        <div className="relative h-32 overflow-hidden rounded transition duration-300 group-hover:scale-110">
+    <div className=" mt-5  overflow-hidden rounded bg-white">
+      <Link href={url}>
+        <div className="relative h-48 cursor-pointer overflow-hidden rounded transition duration-300 hover:scale-105">
           <Image src={image} layout="fill" objectFit="cover" />
+          {/* <div className="relative hidden space-y-1 p-3 text-xs group-hover:block">
+            {brief.map((e) => (
+              <li>{e}</li>
+            ))}
+          </div> */}
         </div>
-
-        <div className="py-5">
-          <p className="mb-2 text-xs font-semibold uppercase text-gray-600">
-            {tag}
-          </p>
-
-          <h2 className="inline-block cursor-pointer text-2xl font-bold leading-5 transition-colors group-hover:text-blue-600">
+      </Link>
+      <div className="py-5">
+        <p className="mb-2 text-xs font-semibold uppercase text-gray-600">
+          {tag}
+        </p>
+        <Link href={url}>
+          <h2 className="inline-block cursor-pointer text-2xl font-bold leading-5 transition-colors hover:text-slate-500">
             {title}
           </h2>
-
-          {/* <p className="mb-4 text-gray-700">{desc}</p> */}
+        </Link>
+        <p className="mt-2 text-gray-700">{desc}</p>
+        <div className="flex justify-between">
+          <Link href={url}>
+            <div className="mt-3 inline-flex cursor-pointer items-center font-medium hover:text-slate-500">
+              <div className="flex items-center">
+                <h3 className="text-sm tracking-wide ">Live</h3>
+                <ChevronRightIcon className="ml-1 h-4" />
+              </div>
+            </div>
+          </Link>
+          <Link href={code}>
+            <div className="mt-3 inline-flex cursor-pointer items-center font-medium hover:text-slate-500">
+              <div className="flex items-center">
+                <h3 className="text-sm tracking-wide ">Code & Brief</h3>
+                <ChevronRightIcon className="ml-1 h-4" />
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 

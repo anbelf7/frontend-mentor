@@ -1,6 +1,8 @@
 # Frontend Mentor Challenges
 
-This repo contains my solution for challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges) made by [Next.js](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com) and personalized template project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This repo contains my solutions for challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges) made by [Next.js](https://nextjs.org/) + [Tailwind CSS](https://tailwindcss.com) and personalized template project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Website:
 
 ## Newbie
 
