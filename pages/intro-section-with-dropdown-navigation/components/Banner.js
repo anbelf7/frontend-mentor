@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import img from '../public/image-hero-desktop.png';
-import logo1 from '../public/client-databiz.svg';
-import logo2 from '../public/client-audiophile.svg';
-import logo3 from '../public/client-meet.svg';
-import logo4 from '../public/client-maker.svg';
+import img from '/intro-section-with-dropdown-navigation/image-hero-desktop.png';
+import logo1 from '/intro-section-with-dropdown-navigation/client-databiz.svg';
+import logo2 from '/intro-section-with-dropdown-navigation/client-audiophile.svg';
+import logo3 from '/intro-section-with-dropdown-navigation/client-meet.svg';
+import logo4 from '/intro-section-with-dropdown-navigation/client-maker.svg';
 
 const Banner = () => {
   return (
@@ -12,11 +12,11 @@ const Banner = () => {
         <h2 className="mt-5 text-center text-4xl font-bold sm:text-left sm:text-8xl">
           Make remote work
         </h2>
-        <p className="w-3/4 text-center text-lg tracking-wide text-medium-gray sm:text-left">
+        <p className="text-medium-gray w-3/4 text-center text-lg tracking-wide sm:text-left">
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </p>
-        <button className="cursor-pointer rounded-xl border border-almost-black bg-almost-black px-6 py-3 text-almost-white hover:bg-almost-white hover:text-almost-black">
+        <button className="border-almost-black bg-almost-black text-almost-white hover:bg-almost-white hover:text-almost-black cursor-pointer rounded-xl border px-6 py-3">
           Learn more
         </button>
         <div className="flex w-full items-center justify-between px-2 sm:pt-10">

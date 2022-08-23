@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
-![Design preview for the Intro section with dropdown navigation coding challenge](/public/intro-section-with-dropdown-navigation/desktop-preview.jpg)
+![Design preview for the Intro section with dropdown navigation coding challenge](/public/intro-section-with-dropdown-navigation/design/desktop-preview.jpg)
 
 [Live Demo](https://fmchallenges.netlify.app/intro-section-with-dropdown-navigation)
 

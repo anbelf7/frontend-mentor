@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import React from 'react';
+import img from './images/image-qr-code.png';
 
 const index = () => {
   return (
@@ -17,7 +18,7 @@ const index = () => {
         <div className="flex w-[26rem] flex-col items-center justify-center rounded-3xl bg-white p-5 text-center">
           <div className="relative h-96 w-full overflow-hidden rounded-xl">
             <Image
-              src="/qr-code-component/image-qr-code.png"
+              src={img}
               alt="qr-code-image"
               layout="fill"
               objectFit="cover"
