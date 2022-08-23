@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
-![Design preview for the Intro section with dropdown navigation coding challenge](/public/intro-section-with-dropdown-navigation/design/desktop-preview.jpg)
+![Design preview for the Intro section with dropdown navigation coding challenge](/public/intro-section-with-dropdown-navigation/desktop-preview.jpg)
 
 [Live Demo](https://fmchallenges.netlify.app/intro-section-with-dropdown-navigation)
 
@@ -17,35 +17,35 @@ Your users should be able to:
 <details>
  <summary>Desktop design</summary>
 
-![Desktop design](/public/intro-section-with-dropdown-navigation/design/desktop-design.jpg)
+![Desktop design](/public/intro-section-with-dropdown-navigation/desktop-design.jpg)
 
 </details>
 
 <details>
  <summary>Active states</summary>
 
-![Active states](/public/intro-section-with-dropdown-navigation/design/active-states.jpg)
+![Active states](/public/intro-section-with-dropdown-navigation/active-states.jpg)
 
 </details>
 
 <details>
  <summary>Mobile design</summary>
 
-![Mobile design](/public/intro-section-with-dropdown-navigation/design/mobile-design.jpg)
+![Mobile design](/public/intro-section-with-dropdown-navigation/mobile-design.jpg)
 
 </details>
 
 <details>
  <summary>Mobile menu collapsed</summary>
 
-![Mobile design](/public/intro-section-with-dropdown-navigation/design/mobile-menu-collapsed.jpg)
+![Mobile design](/public/intro-section-with-dropdown-navigation/mobile-menu-collapsed.jpg)
 
 </details>
 
 <details>
  <summary>Mobile menu expanded</summary>
 
-![Mobile design](/public/intro-section-with-dropdown-navigation/design/mobile-menu-expanded.jpg)
+![Mobile design](/public/intro-section-with-dropdown-navigation/mobile-menu-expanded.jpg)
 
 </details>
 

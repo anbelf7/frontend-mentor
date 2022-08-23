@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import img from '/intro-section-with-dropdown-navigation/image-hero-desktop.png';
-import logo1 from '/intro-section-with-dropdown-navigation/client-databiz.svg';
-import logo2 from '/intro-section-with-dropdown-navigation/client-audiophile.svg';
-import logo3 from '/intro-section-with-dropdown-navigation/client-meet.svg';
-import logo4 from '/intro-section-with-dropdown-navigation/client-maker.svg';
+import img from '../images/image-hero-desktop.png';
+import logo1 from '../images/client-databiz.svg';
+import logo2 from '../images/client-audiophile.svg';
+import logo3 from '../images/client-meet.svg';
+import logo4 from '../images/client-maker.svg';
 
 const Banner = () => {
   return (

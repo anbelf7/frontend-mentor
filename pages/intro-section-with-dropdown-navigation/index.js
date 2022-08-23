@@ -13,7 +13,7 @@ const index = () => {
       </Head>
       <div className="bg-almost-white text-almost-black flex h-screen flex-col">
         <Header />
-        {/* <Banner /> */}
+        <Banner />
       </div>
     </div>
   );
