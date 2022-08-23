@@ -5,7 +5,7 @@ import {
   ClockIcon,
   ChevronDownIcon,
 } from '@heroicons/react/solid';
-export const menuItems = [
+const menuItems = [
   {
     label: 'Features',
     url: '/',
@@ -68,3 +68,4 @@ export const menuItems = [
     url: '/',
   },
 ];
+export default menuItems;

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import logo from '../images/logo.svg';
 import { MenuIcon } from '@heroicons/react/outline';
-import { menuItems } from './menuItems';
+import menuItems from './menuItems';
 
 const Header = () => {
   return (
