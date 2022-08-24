@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronRightIcon } from '@heroicons/react/outline';
+import { ChevronRightIcon } from '@heroicons/react/20/solid';
 
 const ChallengeCard = ({ title, url, image, tag, desc, code }) => {
   return (
     <div className=" mt-5  overflow-hidden rounded bg-white">
       <Link href={url}>
-        <div className="relative h-48 cursor-pointer overflow-hidden rounded transition duration-300 hover:scale-105">
+        <div className="relative h-48 cursor-pointer overflow-hidden rounded shadow-sm transition duration-300 hover:scale-105">
           <Image
             src={image}
             alt="challenge-image"

@@ -3,8 +3,7 @@ import avatar from '../images/avatar-michelle.jpg';
 import facebook from '../images/icon-facebook.svg';
 import pinterest from '../images/icon-pinterest.svg';
 import twitter from '../images/icon-twitter.svg';
-import Share from '../images/icon-share.svg';
-import { ShareIcon } from '@heroicons/react/outline';
+import { ShareIcon } from '@heroicons/react/20/solid';
 import { useState } from 'react';
 
 const Social = () => {

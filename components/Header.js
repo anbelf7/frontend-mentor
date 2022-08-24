@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { menuItems } from '../lib/menuItems';
 
-const Header = ({ title }) => {
+const Header = ({ title, challenge }) => {
   return (
     <header className="bg-slate-200 text-gray-600">
       <div className="container mx-auto flex flex-col flex-wrap items-center justify-between py-1 px-5 md:flex-row">
@@ -11,6 +11,7 @@ const Header = ({ title }) => {
             <h1 className="text-lg">{title}</h1>
           </a>
         </Link>
+        {/* <h1>{challenge}</h1> */}
         <nav className="flex flex-wrap items-center space-x-10	md:ml-4  md:py-1 md:pl-4">
           {menuItems.map(
             (item) =>
