@@ -6,7 +6,7 @@ const Layout = ({ children, title }) => {
     <div className="flex h-screen flex-col">
       <Header title={title} />
       <div className="flex flex-1 flex-col sm:overflow-y-auto">
-        <main className="container mx-auto my-5 flex-1 px-5 ">{children}</main>
+        <main className="  my-5 flex-1  ">{children}</main>
         <Footer title={title} />
       </div>
     </div>
