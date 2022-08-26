@@ -2,6 +2,8 @@
 
 ![Design preview for the Expenses chart component coding challenge](/public/expenses-chart-component/desktop-preview.jpg)
 
+[Live Demo](https://fmchallenges.netlify.app/expenses-chart-component)
+
 ## The challenge
 
 The users should be able to:

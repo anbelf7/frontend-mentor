@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import { useState } from 'react';
 import Grafico from './components/Grafico';
 import data from './data.json';
+import logo from './images/logo.svg';
 
 const index = () => {
   const [today, setToday] = useState('wed');
@@ -15,12 +17,19 @@ const index = () => {
       </Head>
       <div className="flex h-screen w-screen items-center justify-center bg-cream font-dmsans text-dark-brown">
         <div className=" space-y-5">
-          <header className="flex justify-between rounded-2xl bg-soft-red p-6 text-very-pale-orange">
+          <header className="flex items-center justify-between rounded-2xl bg-soft-red p-6 text-very-pale-orange">
             <div className="space-y-1">
               <label className="">My balance</label>
               <h3 className="text-2xl font-bold">$921.48</h3>
             </div>
-            <img src="./images/logo.svg" alt="" />
+            <div className="relative h-14 w-16  ">
+              <Image
+                src={logo}
+                layout="fill"
+                objectFit="contain"
+                alt="logo"
+              ></Image>
+            </div>
           </header>
           <main className="flex flex-col rounded-2xl bg-very-pale-orange p-6">
             <h2 className="text-2xl font-bold ">Spending - Last 7 days</h2>

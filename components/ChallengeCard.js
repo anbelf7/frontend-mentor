@@ -21,7 +21,15 @@ const ChallengeCard = ({ title, url, image, tag, desc, code }) => {
         </div>
       </Link>
       <div className="py-5">
-        <p className="mb-2 text-xs font-semibold uppercase text-gray-600">
+        <p
+          className={`mb-2 text-xs font-semibold uppercase 
+          ${tag === 'newbie' ? 'text-blue-500' : 'text-gray-600'}
+          ${tag === 'junior' ? 'text-green-500' : 'text-gray-600'}
+          ${tag === 'intermediate' ? 'text-orange-300' : 'text-gray-600'}
+          ${tag === 'advanced' ? 'text-orange-600' : 'text-gray-600'}
+          ${tag === 'guru' ? 'text-red-700' : 'text-gray-600'}
+          `}
+        >
           {tag}
         </p>
         <Link href={url}>
